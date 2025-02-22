@@ -398,7 +398,7 @@ menu:active{
     width:100%;
     height:100%;
     transform:translateY(100%);
-    transform : 50ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-list-item:hover .portfolio-information{
     transform: translateY(0);
